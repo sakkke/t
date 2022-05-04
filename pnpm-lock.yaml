@@ -2,12 +2,14 @@ lockfileVersion: 5.3
 
 specifiers:
   '@vitejs/plugin-vue': ^2.3.1
+  open-props: ^1.3.16
   typescript: ^4.5.4
   vite: ^2.9.7
   vue: ^3.2.25
   vue-tsc: ^0.34.7
 
 dependencies:
+  open-props: 1.3.16
   vue: 3.2.33
 
 devDependencies:
@@ -389,6 +391,10 @@ packages:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  /open-props/1.3.16:
+    resolution: {integrity: sha512-ZAYewrlH5xuCItPa8c4RxPtqyvuC7zYpdfEzSbDFmLT6T0SZ/iQNHNIs/SgnzMGVpSszFcbChK17S5/IswN2bw==}
+    dev: false
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
